@@ -27,7 +27,7 @@ void Fcoef::create(const int i1, const int i2, const int i3)
     }
     else
     {
-        std::cout << "not allowed!" << std::endl;
+        std::cout << "Error in soc.cpp: operation is not allowed!" << std::endl;
         if (!(i1 * i2 * i3 > 0)){
             std::cout << "i1*i2*i3 must be positive! i1*i2*i3 is " << i1 * i2 * i3 << std::endl;
         }
